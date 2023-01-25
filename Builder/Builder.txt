@@ -1,0 +1,5 @@
+Having objects with a lot of constructor arguments is not productive.
+
+Builder provides a way to provide a piece-by-piece (piecewise) construction.
+
+Builder provides an API for creating the objects succinctly.

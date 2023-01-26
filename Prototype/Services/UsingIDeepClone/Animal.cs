@@ -6,4 +6,5 @@ public abstract class Animal : ICloneable
     public string Name { get; set; }
     public Owner Owner { get; set; }
     public abstract object Clone();
+    public abstract object DeepClone();
 }

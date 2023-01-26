@@ -11,3 +11,14 @@ copiedCat.Owner = newOwner;
 System.Console.WriteLine(copiedCat.ToString());
 System.Console.WriteLine(originalCat.ToString());
 
+
+Owner doggoOwner = new Owner() { Adress = "555 doggo", Name = "Piranha C" };
+Dog originalDog = new Dog() { Color = "Orange", Id = 3, Name = "Bobby", Owner = doggoOwner };
+
+Dog copiedDog = (Dog)originalDog.Clone();
+Owner newDoggoOwner = new Owner() { Adress = "666 el passo", Name = "Maryan" };
+copiedDog.Id = 4;
+copiedDog.Owner = newDoggoOwner;
+
+System.Console.WriteLine(copiedDog.ToString());
+System.Console.WriteLine(originalDog.ToString());

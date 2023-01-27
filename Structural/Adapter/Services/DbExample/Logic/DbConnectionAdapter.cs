@@ -20,4 +20,9 @@ public class DbConnectionAdapter : IDbConnection
     {
         _dbConnection.Execute(query);
     }
+
+    public void ExecuteQuery(string query)
+    {
+        _dbConnection.Execute(query);
+    }
 }

@@ -1,5 +1,4 @@
-﻿using System.Security.Cryptography;
-using Structural.Decorator.Abstractions;
+﻿using Structural.Decorator.Abstractions;
 using Structural.Decorator.Beverage;
 
 Beverage beverage = new Espresso();

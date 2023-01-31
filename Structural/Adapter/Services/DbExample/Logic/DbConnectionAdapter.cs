@@ -16,11 +16,6 @@ public class DbConnectionAdapter : IDbConnection
         _dbConnection.Connect();
     }
 
-    public void Execute(string query)
-    {
-        _dbConnection.Execute(query);
-    }
-
     public void ExecuteQuery(string query)
     {
         _dbConnection.Execute(query);
